@@ -8,7 +8,7 @@ License:    	GPLv3
 URL:            https://telegram.org/
 Source0:   	https://updates.tdesktop.com/tlinux32/tsetup32.%version.tar.xz     
 Source1:	https://updates.tdesktop.com/tlinux/tsetup.%version.tar.xz	
-Source2:	http://192.168.1.67:8000/telegram128.png
+Source2:	https://raw.githubusercontent.com/yucefsourani/telegram-spec/master/telegram128.png
 Source3:	https://raw.githubusercontent.com/yucefsourani/telegram-spec/master/telegram.desktop
 BuildRequires:  desktop-file-utils
        
