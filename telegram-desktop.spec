@@ -1,6 +1,6 @@
 %global debug_package %{nil}
 Name:           telegram-desktop
-Version:        0.10.6
+Version:        0.10.7
 Release:        1%{?dist}
 Summary:     	Telegram is a messaging app with a focus on speed and security
 Group:		Applications/Internet
@@ -59,6 +59,9 @@ desktop-file-install                          \
 %{_bindir}/telegram
 
 
+%changelog
+* Wed Sep 21 2016 youcef sourani youssef.m.sourani@gmail.com - 0.10.7-1
+- Update To Version 0.10.7
 
 %changelog
 * Sat Sep 17 2016 youcef sourani youssef.m.sourani@gmail.com - 0.10.6-1
