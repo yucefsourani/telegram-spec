@@ -1,22 +1,23 @@
 %global debug_package %{nil}
 Name:           telegram-desktop
-Version:        0.10.7
-Release:        1%{?dist}
+Version:        0.10.10
+Release:        2%{?dist}
 Summary:     	Telegram is a messaging app with a focus on speed and security
 Group:		Applications/Internet
 License:    	GPLv3    
 URL:            https://telegram.org/
 Source0:   	https://updates.tdesktop.com/tlinux32/tsetup32.%version.tar.xz     
 Source1:	https://updates.tdesktop.com/tlinux/tsetup.%version.tar.xz	
-Source2:	https://raw.githubusercontent.com/yucefsourani/telegram-spec/master/telegram128.png
+Source2:	https://github.com/yucefsourani/telegram-spec/raw/master/telegram128.png
 Source3:	https://raw.githubusercontent.com/yucefsourani/telegram-spec/master/telegram.desktop
 BuildRequires:  desktop-file-utils
        
 
 %description
-Telegram is a messaging app with a focus on speed and security, it’s super-fast, simple and free. You can use Telegram on all your devices at the same time — your messages sync seamlessly across any number of your phones, tablets or computers.
-
-With Telegram, you can send messages, photos, videos and files of any type (doc, zip, mp3, etc), as well as create groups for up to 5000 people or channels for broadcasting to unlimited audiences. You can write to your phone contacts and find people by their usernames. As a result, Telegram is like SMS and email combined — and can take care of all your personal or business messaging needs
+Telegram is a messaging app with a focus on speed and security,
+it’s super-fast, simple and free. You can use Telegram on all
+your devices at the same time — your messages sync seamlessly
+across any number of your phones, tablets or computers.
 
 
 %prep
@@ -59,12 +60,20 @@ desktop-file-install                          \
 %{_bindir}/telegram
 
 
+
 %changelog
+* Mon Oct 03 2016 youcef sourani <youssef.m.sourani@gmail.com> - 0.10.10-2
+- Update description
+
+* Mon Oct 03 2016 youcef sourani <youssef.m.sourani@gmail.com> - 0.10.10-1
+- Update To Version 0.10.10
+
+* Fri Sep 23 2016 youcef sourani <youssef.m.sourani@gmail.com> - 0.10.8-1
+- Update To Version 0.10.8
+
 * Wed Sep 21 2016 youcef sourani youssef.m.sourani@gmail.com - 0.10.7-1
 - Update To Version 0.10.7
 
-%changelog
 * Sat Sep 17 2016 youcef sourani youssef.m.sourani@gmail.com - 0.10.6-1
 - Initial For Fedora
-
 
