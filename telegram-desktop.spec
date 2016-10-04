@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 Name:           telegram-desktop
-Version:        0.10.10
-Release:        2%{?dist}
+Version:        0.10.11
+Release:        1%{?dist}
 Summary:     	Telegram is a messaging app with a focus on speed and security
 Group:		Applications/Internet
 License:    	GPLv3    
@@ -62,6 +62,9 @@ desktop-file-install                          \
 
 
 %changelog
+* Tue Oct 04 2016 youcef sourani <youssef.m.sourani@gmail.com> - 0.10.11-1
+- Update To Version 0.10.11
+
 * Mon Oct 03 2016 youcef sourani <youssef.m.sourani@gmail.com> - 0.10.10-2
 - Update description
 
